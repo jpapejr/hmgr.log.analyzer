@@ -160,9 +160,7 @@ public class Main {
 		}
 	}
 	
-	/*
-	 * Primary work method for getting and packaging the remote WebSphere logs on ECuRep
-	 */
+	
 	private String[] fetchAndParseLogs(String path) throws Exception{
 		System.out.println("Parsing logs at " + path + ", please wait a moment...");
 		String[] sArray = null;
